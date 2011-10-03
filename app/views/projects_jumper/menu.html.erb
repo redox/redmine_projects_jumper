@@ -1,0 +1,4 @@
+<div id="project_jumper" style="padding: 10px; text-align: center">
+  <%= label_tag :jump_to, t(:projets_jumper_label) %>:
+  <%= select_tag :jump_to, options_for_select(projects.map { |p| [ p.name, p.identifier ] }, current_project.try(:identifier)), :onchange => "location.href = '/projects/' + this.getValue()" %>  
+</div>

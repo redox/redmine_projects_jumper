@@ -1,0 +1,3 @@
+= Ability to jump between projects using the headers
+
+Easily jump to a project from anywhere
